@@ -8,7 +8,7 @@
 #import "MSwizzle.h"
 #import <objc/runtime.h>
 
-void MSwizzleMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector) {
+void MSwizzleInstanceMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector) {
     Method originalMethod = class_getInstanceMethod(originalCls, originalSelector);
     Method swizzledMethod = class_getInstanceMethod(swizzledCls, swizzledSelector);
     
@@ -26,4 +26,11 @@ void MSwizzleMethod(Class originalCls, SEL originalSelector, Class swizzledCls, 
     } else {
         method_exchangeImplementations(originalMethod, swizzledMethod);
     }
+}
+
+
+void MSwizzleClassMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector) {
+    
+    MSwizzleInstanceMethod(object_getClass(originalCls), originalSelector, object_getClass(swizzledCls), swizzledSelector);
+    
 }

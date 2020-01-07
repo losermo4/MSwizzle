@@ -7,6 +7,7 @@
 //
 
 #import "MViewController.h"
+#import "MObject+MAdd.h"
 
 @interface MViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MObject *object = [MObject new];
+    [object instanceLog];
+    
+    [MObject classLog];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MSwizzle.h"
 
 FOUNDATION_EXPORT double MSwizzleVersionNumber;
 FOUNDATION_EXPORT const unsigned char MSwizzleVersionString[];

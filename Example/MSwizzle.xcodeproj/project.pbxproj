@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BCE090C878ECA194CD10945 /* Pods_MSwizzle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B8873DEF8A98EDA77D110D /* Pods_MSwizzle_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A236DFC523C479F7005161D3 /* MObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A236DFC423C479F7005161D3 /* MObject.m */; };
+		A236DFC823C47A65005161D3 /* MObject+MAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A236DFC723C47A65005161D3 /* MObject+MAdd.m */; };
 		FC6821FD320C7D0ACAFFF839 /* Pods_MSwizzle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DBCFF077B2F51027851864 /* Pods_MSwizzle_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1982D6FC61135BF68C59331C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2CC745B9342358865328847C /* Pods-MSwizzle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSwizzle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSwizzle_Tests/Pods-MSwizzle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1982D6FC61135BF68C59331C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33DBCFF077B2F51027851864 /* Pods_MSwizzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSwizzle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45B8873DEF8A98EDA77D110D /* Pods_MSwizzle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSwizzle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MSwizzle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSwizzle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +61,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC238A55B9C8FFFD943EB02E /* MSwizzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSwizzle.podspec; path = ../MSwizzle.podspec; sourceTree = "<group>"; };
-		B99B617BA4DA9B03D95D097D /* Pods-MSwizzle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSwizzle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSwizzle_Tests/Pods-MSwizzle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A236DFC323C479F7005161D3 /* MObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObject.h; sourceTree = "<group>"; };
+		A236DFC423C479F7005161D3 /* MObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MObject.m; sourceTree = "<group>"; };
+		A236DFC623C47A65005161D3 /* MObject+MAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MObject+MAdd.h"; sourceTree = "<group>"; };
+		A236DFC723C47A65005161D3 /* MObject+MAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MObject+MAdd.m"; sourceTree = "<group>"; };
+		AC238A55B9C8FFFD943EB02E /* MSwizzle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSwizzle.podspec; path = ../MSwizzle.podspec; sourceTree = "<group>"; };
 		CE60EF686370E76F1AD56E28 /* Pods-MSwizzle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSwizzle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF70E2586AA06FB59075985C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CF70E2586AA06FB59075985C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F948B7A93C8AC079867D4557 /* Pods-MSwizzle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSwizzle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +90,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4BCE090C878ECA194CD10945 /* Pods_MSwizzle_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +125,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				33DBCFF077B2F51027851864 /* Pods_MSwizzle_Example.framework */,
-				45B8873DEF8A98EDA77D110D /* Pods_MSwizzle_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +137,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MViewController.h */,
 				6003F5A6195388D20070C39A /* MViewController.m */,
+				A236DFC323C479F7005161D3 /* MObject.h */,
+				A236DFC423C479F7005161D3 /* MObject.m */,
+				A236DFC623C47A65005161D3 /* MObject+MAdd.h */,
+				A236DFC723C47A65005161D3 /* MObject+MAdd.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,8 +194,6 @@
 			children = (
 				F948B7A93C8AC079867D4557 /* Pods-MSwizzle_Example.debug.xcconfig */,
 				CE60EF686370E76F1AD56E28 /* Pods-MSwizzle_Example.release.xcconfig */,
-				2CC745B9342358865328847C /* Pods-MSwizzle_Tests.debug.xcconfig */,
-				B99B617BA4DA9B03D95D097D /* Pods-MSwizzle_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,11 +224,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MSwizzle_Tests" */;
 			buildPhases = (
-				197FE5E526AD46D83A2CFEAD /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				4418DDB2CD9E82793A98E799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "losermo4@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DZ7M4562PX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,55 +299,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		197FE5E526AD46D83A2CFEAD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSwizzle_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4418DDB2CD9E82793A98E799 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MSwizzle_Tests/Pods-MSwizzle_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSwizzle_Tests/Pods-MSwizzle_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A883CD8CBAE719AEEF86EFCB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MSwizzle/MSwizzle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -352,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSwizzle_Example/Pods-MSwizzle_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA7FD743BDDCB46CF36FB48C /* [CP] Check Pods Manifest.lock */ = {
@@ -380,7 +342,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A236DFC523C479F7005161D3 /* MObject.m in Sources */,
 				6003F59E195388D20070C39A /* MAppDelegate.m in Sources */,
+				A236DFC823C47A65005161D3 /* MObject+MAdd.m in Sources */,
 				6003F5A7195388D20070C39A /* MViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -510,6 +474,7 @@
 			baseConfigurationReference = F948B7A93C8AC079867D4557 /* Pods-MSwizzle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZ7M4562PX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSwizzle/MSwizzle-Prefix.pch";
 				INFOPLIST_FILE = "MSwizzle/MSwizzle-Info.plist";
@@ -525,6 +490,7 @@
 			baseConfigurationReference = CE60EF686370E76F1AD56E28 /* Pods-MSwizzle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DZ7M4562PX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSwizzle/MSwizzle-Prefix.pch";
 				INFOPLIST_FILE = "MSwizzle/MSwizzle-Info.plist";
@@ -537,7 +503,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC745B9342358865328847C /* Pods-MSwizzle_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -561,7 +526,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99B617BA4DA9B03D95D097D /* Pods-MSwizzle_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

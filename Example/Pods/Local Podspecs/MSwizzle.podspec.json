@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of MSwizzle.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/losermo4@gmail.com/MSwizzle",
+  "homepage": "https://github.com/losermo4/MSwizzle",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "losermo4@gmail.com": "losermo4@gmail.com"
   },
   "source": {
-    "git": "https://github.com/losermo4@gmail.com/MSwizzle.git",
+    "git": "https://github.com/losermo4/MSwizzle.git",
     "tag": "0.1.0"
   },
   "platforms": {

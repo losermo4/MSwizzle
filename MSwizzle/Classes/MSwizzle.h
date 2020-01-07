@@ -8,4 +8,6 @@
 #import <Foundation/Foundation.h>
 
 
-extern void MSwizzleMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector);
+extern void MSwizzleInstanceMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector);
+
+extern void MSwizzleClassMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector);
