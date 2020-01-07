@@ -39,17 +39,17 @@
 		2BBB5627AD2E8C60E8B33869730BDBF8 /* MSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSwizzle.m; path = MSwizzle/Classes/MSwizzle.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		326F49F9291768D3BCB59FD4BD33175C /* Pods-MSwizzle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSwizzle_Example-umbrella.h"; sourceTree = "<group>"; };
-		7CEA50716327F591B2E3C980873F533A /* MSwizzle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSwizzle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7CEA50716327F591B2E3C980873F533A /* MSwizzle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSwizzle.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		899561353D4FD1A42ABF60F155B4078B /* MSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSwizzle-dummy.m"; sourceTree = "<group>"; };
 		8A49A7082600D4757C3AA905BE589892 /* Pods-MSwizzle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSwizzle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8CB439B097C3555E84F29E7BD5AD6858 /* MSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSwizzle-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC487DA12E95477E5A7633DC8974388 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A60305C48A9D52FB3B291F7FD7DFFB95 /* MSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSwizzle.framework; path = MSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC487DA12E95477E5A7633DC8974388 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A60305C48A9D52FB3B291F7FD7DFFB95 /* MSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8602276B318B524E0DE150D361318F1 /* Pods-MSwizzle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSwizzle_Example-dummy.m"; sourceTree = "<group>"; };
-		B49A9102B232913D9A0F9C61A64AABAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B49A9102B232913D9A0F9C61A64AABAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BFDF5AA84FDAF3381F5C194D4B0085E2 /* Pods-MSwizzle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSwizzle_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DCAF7FF7FB7044A8F644B77EB6633721 /* Pods_MSwizzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSwizzle_Example.framework; path = "Pods-MSwizzle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAF7FF7FB7044A8F644B77EB6633721 /* Pods_MSwizzle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSwizzle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C80BA69E0C9BCE14C44D3318CAD4F /* Pods-MSwizzle_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSwizzle_Example-Info.plist"; sourceTree = "<group>"; };
 		F2D64FA43702641200E50416470E2650 /* Pods-MSwizzle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSwizzle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -434,8 +434,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
