@@ -1,0 +1,6 @@
+framework module MSwizzle {
+  umbrella header "MSwizzle.h"
+
+  export *
+  module * { export * }
+}
