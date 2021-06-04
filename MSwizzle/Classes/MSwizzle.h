@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
+#define kMSwizzleMaster 1
 
 extern void MSwizzleInstanceMethod(Class originalCls, SEL originalSelector, Class swizzledCls, SEL swizzledSelector);
 
